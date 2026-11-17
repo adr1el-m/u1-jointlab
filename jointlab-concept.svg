@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">U1 JointLab — redirecting cable pull into a receiver base</title>
+<desc id="desc">A concept drawing of a Raspberry Pi and RTL-SDR ground station with a PETG and TPU coax strain relief. Three matched test specimens compare a flat seam, slicer beams and two CAD keys.</desc>
+<rect width="1600" height="1000" fill="#f4f1e8"/>
+<g font-family="Arial, sans-serif" fill="#172434">
+  <rect x="56" y="40" width="32" height="8" fill="#cb502e"/>
+  <text x="101" y="49" font-size="20">U1 JOINTLAB  /  METEOR WEATHER SATELLITE RECEIVER</text>
+  <text x="1544" y="49" text-anchor="end" font-size="18" fill="#4b5b64">CONCEPT DESIGN</text>
+  <text x="54" y="119" font-size="64" font-weight="bold">Route the pull into the base.</text>
+  <text x="58" y="160" font-size="26" fill="#4b5b64">A two-material coax strain relief for a Raspberry Pi and RTL-SDR ground station.</text>
+
+  <rect x="56" y="193" width="1488" height="414" rx="18" fill="#152536"/>
+  <text x="81" y="233" font-size="20" fill="#d9e2e9">RECEIVER ASSEMBLY  /  PROPOSED LOAD PATH</text>
+  <!-- Receiver base and housing, shown in oblique projection -->
+  <path d="M129 506L413 559L1005 446L719 396Z" fill="#23384d"/>
+  <path d="M129 492L413 545L1005 433L719 383Z" fill="#607487"/>
+  <path d="M129 492L413 545V559L129 506Z" fill="#394f63"/>
+  <path d="M413 545L1005 433V446L413 559Z" fill="#31485d"/>
+  <path d="M157 413L381 455L677 397L452 355Z" fill="#364f63"/>
+  <path d="M157 390L381 432L677 375L452 334Z" fill="#b9cad5"/>
+  <path d="M157 390L381 432V486L157 445Z" fill="#728b9d"/>
+  <path d="M381 432L677 375V429L381 486Z" fill="#587387"/>
+  <path d="M184 387L446 337L653 375L390 426Z" fill="#cad8df"/>
+  <path d="M205 383L328 359L334 362L212 386ZM222 390L345 366L351 369L229 393ZM239 397L362 373L368 376L246 400Z" fill="#889eab"/>
+  <text x="172" y="318" font-size="23" font-weight="bold" fill="#f4f1e8">Raspberry Pi</text>
+  <path d="M251 322H255V365H251Z" fill="#aabcc7"/>
+
+  <!-- SDR body and RF connector -->
+  <path d="M505 403L563 414L681 391L623 380Z" fill="#293444"/>
+  <path d="M505 391L563 401L681 378L623 367Z" fill="#e1e6e8"/>
+  <path d="M505 391L563 401V421L505 411Z" fill="#a8b6bf"/>
+  <path d="M563 401L681 378V397L563 421Z" fill="#8b9eaa"/>
+  <path d="M531 391L620 374L627 376L538 393ZM545 394L634 377L641 379L552 396Z" fill="#738998"/>
+  <path d="M676 382L694 379L708 384L708 394L690 397L676 392Z" fill="#f6cd90"/>
+  <text x="505" y="312" font-size="23" font-weight="bold" fill="#f4f1e8">RTL-SDR</text>
+  <path d="M552 320H556V379H552Z" fill="#aabcc7"/>
+  <!-- Cable loop and jacket, with a highlight along the upper edge -->
+  <path d="M700 381C729 374 733 341 778 337C812 334 818 354 845 347L1113 294L1116 309L848 362C815 369 810 349 779 352C738 356 736 386 702 396Z" fill="#0b1520"/>
+  <path d="M700 384C730 377 734 344 778 340C812 337 818 357 846 350L1114 297L1116 305L847 359C816 365 810 346 779 349C736 353 734 384 702 393Z" fill="#a1b4bf"/>
+  <path d="M701 385C731 378 735 345 778 341C812 338 818 358 846 351L1114 298V301L846 355C815 361 812 341 779 344C736 348 733 382 701 388Z" fill="#c9d6dd"/>
+  <!-- Bracket base and split saddle -->
+  <path d="M801 422L872 436L959 419L887 405Z" fill="#59b8c4"/>
+  <path d="M801 422L872 436V448L801 435Z" fill="#246c83"/>
+  <path d="M872 436L959 419V432L872 448Z" fill="#2c879b"/>
+  <ellipse cx="833" cy="427" rx="9" ry="4" fill="#1e4054"/>
+  <ellipse cx="925" cy="421" rx="9" ry="4" fill="#1e4054"/>
+  <path d="M829 415L881 425V371L829 361Z" fill="#297c91"/>
+  <path d="M881 425L924 416V361L881 371Z" fill="#3f9dad"/>
+  <path d="M829 361L881 371L924 361L872 351Z" fill="#67c7ce"/>
+  <path d="M836 351L881 359L914 352L868 344Z" fill="#f9aa77"/>
+  <path d="M836 351L881 359V376L836 368Z" fill="#bd512e"/>
+  <path d="M881 359L914 352V369L881 376Z" fill="#e0774d"/>
+  <path d="M825 363L920 345L925 355L829 373Z" fill="#a4b4bd"/>
+  <path d="M843 341L880 334L917 341V347L881 354L843 347Z" fill="#529fb0"/>
+  <!-- Applied pull, saddle reaction and base reaction -->
+  <path d="M957 321L1080 296L1077 282L1119 296L1085 322L1083 307L959 332Z" fill="#ff9468"/>
+  <text x="958" y="287" font-size="21" font-weight="bold" fill="#ffad89">Cable pull</text>
+  <path d="M899 388H909V408H921L904 425L887 408H899Z" fill="#ffad89"/>
+  <path d="M680 460L740 391L743 394L683 462Z" fill="#d6e2e8"/>
+  <text x="526" y="488" font-size="21" fill="#e1e9ed">Slack near the RF connector</text>
+
+  <path d="M1152 253H1154V548H1152Z" fill="#496077"/>
+  <text x="1192" y="283" font-size="18" fill="#9bb0c0">THE PRINTED INTERFACE</text>
+  <rect x="1192" y="306" width="16" height="16" rx="3" fill="#67c7ce"/>
+  <text x="1220" y="321" font-size="23" font-weight="bold" fill="#f4f1e8">PETG bracket</text>
+  <text x="1192" y="353" font-size="20" fill="#d9e2e9">Fastens to the receiver base.</text>
+  <rect x="1192" y="386" width="16" height="16" rx="3" fill="#ff9468"/>
+  <text x="1220" y="401" font-size="23" font-weight="bold" fill="#f4f1e8">TPU saddle</text>
+  <text x="1192" y="433" font-size="20" fill="#d9e2e9">Grips the coax jacket.</text>
+  <text x="1192" y="489" font-size="20" fill="#d9e2e9">Cable diameter, bend radius,</text>
+  <text x="1192" y="519" font-size="20" fill="#d9e2e9">and mounting fit to verify.</text>
+
+  <text x="56" y="657" font-size="31" font-weight="bold">Three joints. One test geometry.</text>
+  <text x="1544" y="655" text-anchor="end" font-size="20" fill="#4b5b64">60 × 16 × 4 mm overall  /  12 mm at the seam</text>
+  <path d="M56 680H1544V682H56Z" fill="#c5c3b8"/>
+
+  <g transform="translate(56 710)">
+    <text x="0" y="20" font-size="23" font-weight="bold">Plain seam</text>
+    <text x="0" y="50" font-size="18" fill="#4b5b64">Baseline · beam interlock off</text>
+    <path d="M0 68H76V81H190V145H76V158H0Z" fill="#297c91"/>
+    <path d="M190 81H304V68H380V158H304V145H190Z" fill="#e18253"/>
+    <path d="M7 177H369V181H7Z M0 179L10 174V184Z M380 179L370 174V184Z" fill="#566777"/>
+    <text x="190" y="207" text-anchor="middle" font-size="16" fill="#4b5b64">Opposing grips apply axial pull</text>
+  </g>
+  <g transform="translate(558 710)">
+    <text x="0" y="20" font-size="23" font-weight="bold">Slicer beam interlock</text>
+    <text x="0" y="50" font-size="18" fill="#4b5b64">Same meshes · beam interlock on</text>
+    <path d="M0 68H76V81H190V145H76V158H0Z" fill="#297c91"/>
+    <path d="M190 81H304V68H380V158H304V145H190Z" fill="#e18253"/>
+    <path d="M190 88H212V98H190ZM190 108H212V118H190ZM190 128H212V138H190Z" fill="#297c91"/>
+    <path d="M168 98H190V108H168ZM168 118H190V128H168Z" fill="#e18253"/>
+    <text x="190" y="206" text-anchor="middle" font-size="16" fill="#4b5b64">Beam pattern shown schematically</text>
+  </g>
+  <g transform="translate(1060 710)">
+    <text x="0" y="20" font-size="23" font-weight="bold">CAD-keyed seam</text>
+    <text x="0" y="50" font-size="18" fill="#4b5b64">Two widened keys · beam interlock off</text>
+    <path d="M0 68H76V81H304V68H380V158H304V145H76V158H0Z" fill="#e18253"/>
+    <path d="M0 68H76V81H190V91H202V86H215V108H202V102H190V123H202V118H215V139H202V134H190V145H76V158H0Z" fill="#297c91"/>
+    <text x="190" y="206" text-anchor="middle" font-size="16" fill="#4b5b64">The widened ends resist withdrawal</text>
+  </g>
+
+  <path d="M56 935H1544V937H56Z" fill="#c5c3b8"/>
+  <text x="56" y="971" font-size="19" font-weight="bold">MEASURE</text>
+  <text x="164" y="971" font-size="19">Peak pull force · failure location · cable slip on the receiver</text>
+  <text x="1544" y="971" text-anchor="end" font-size="18" fill="#4b5b64">Slicer and physical U1 tests pending</text>
+</g>
+</svg>
